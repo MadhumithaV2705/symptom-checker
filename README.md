@@ -6,12 +6,8 @@ Many people are unable to identify possible illnesses based on early symptoms. T
 ## 💡 Solution
 This project is a simple AI-based Symptom Checker that allows users to select symptoms and predicts the most likely disease along with basic advice.
 
----
-
 ## 🚀 Live Demo
 🔗 [https://your-app-name.onrender.com](https://symptom-checker-1-nauh.onrender.com/)
-
----
 
 ## ✨ Features
 - Select multiple symptoms
@@ -20,14 +16,10 @@ This project is a simple AI-based Symptom Checker that allows users to select sy
 - Clean and user-friendly UI
 - Deployed and accessible online
 
----
-
 ## 🛠️ Tech Stack
 - Frontend: HTML, CSS
 - Backend: Python (Flask)
 - Deployment: Render
-
----
 
 ## 🧠 How It Works
 1. User selects symptoms
@@ -35,28 +27,19 @@ This project is a simple AI-based Symptom Checker that allows users to select sy
 3. Predicts disease based on maximum match
 4. Displays result and advice
 
----
-
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-<img width="1920" height="942" alt="{EC6F09B5-61BF-44BA-9484-A367E70C2697}" src="https://github.com/user-attachments/assets/777088f7-e3be-4df4-a037-fd3ac32ac202" />
+<img width="1904" height="897" alt="{9F01D153-A7A6-4035-A004-DCA5F3EC0FB8}" src="https://github.com/user-attachments/assets/54441246-5375-47de-86f5-8a9d14bfa901" />
 
 ### 🔹 Result Output
-<img width="1920" height="955" alt="{00C7429E-8B01-4C0A-9246-B1B2F47B4CCB}" src="https://github.com/user-attachments/assets/b4e8aa7d-4ae5-409a-b75f-415ea739a1ae" />
-
----
-
-
----
+<img width="1908" height="901" alt="{9FA0F749-E48E-498B-B056-F14DB3B96435}" src="https://github.com/user-attachments/assets/02763f52-21bb-4717-adc4-9c6b0dfe5d2e" />
 
 ## 🔮 Future Improvements
 - Add machine learning model
 - Add chatbot integration
 - Improve prediction accuracy
 - Add user login system
-
----
 
 ## 👩‍💻 Author
 Madhumitha V
