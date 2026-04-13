@@ -1,45 +1,43 @@
 # 🩺 AI Healthcare Assistant - Symptom Checker
 
-## 📌 Problem Statement
-Many people are unable to identify possible illnesses based on early symptoms. This can delay proper treatment.
+An intelligent web-based healthcare assistant that predicts possible diseases based on user-selected symptoms and provides basic medical advice. This project demonstrates how simple AI logic can support early health awareness.
 
-## 💡 Solution
-This project is a simple AI-based Symptom Checker that allows users to select symptoms and predicts the most likely disease along with basic advice.
-
-## 🚀 Live Demo
-🔗 [https://your-app-name.onrender.com](https://symptom-checker-1-nauh.onrender.com/)
-
-## ✨ Features
-- Select multiple symptoms
-- Predict possible disease
-- Provide basic health advice
-- Clean and user-friendly UI
-- Deployed and accessible online
+## 🚀 Features
+🔍 Symptom-based disease prediction  
+🧠 Simple AI logic using similarity matching  
+💡 Provides basic health advice  
+🌐 Clean and interactive web interface  
+📱 User-friendly design  
 
 ## 🛠️ Tech Stack
-- Frontend: HTML, CSS
-- Backend: Python (Flask)
-- Deployment: Render
+Backend: Flask (Python)  
+Frontend: HTML, CSS  
+Logic: Python (set matching algorithm)  
+Deployment: Render  
+Tools: VS Code, GitHub  
 
-## 🧠 How It Works
-1. User selects symptoms
-2. System matches symptoms with dataset
-3. Predicts disease based on maximum match
-4. Displays result and advice
+## 📸 Working Demo
 
-## 📸 Screenshots
+### 🏠 Home Page
+<img width="1876" height="887" alt="{3C13AC14-89B4-4548-BE78-3EE87743F875}" src="https://github.com/user-attachments/assets/2d15d8b6-8045-4534-bea9-5ae42d5fd409" />
 
-### 🔹 Home Page
-<img width="1904" height="897" alt="{9F01D153-A7A6-4035-A004-DCA5F3EC0FB8}" src="https://github.com/user-attachments/assets/54441246-5375-47de-86f5-8a9d14bfa901" />
+### 🩺 Symptom Selection
+<img width="1887" height="891" alt="{57BDF920-3EDC-4F23-952A-2FA6DDAE09E8}" src="https://github.com/user-attachments/assets/1ae89483-c4e7-4e6f-93b9-c630b762e945" />
 
-### 🔹 Result Output
-<img width="1908" height="901" alt="{9FA0F749-E48E-498B-B056-F14DB3B96435}" src="https://github.com/user-attachments/assets/02763f52-21bb-4717-adc4-9c6b0dfe5d2e" />
+### 💡 Result Output
+<img width="1890" height="889" alt="{331702D5-9B94-4EFD-B236-65627FAAEAEF}" src="https://github.com/user-attachments/assets/f8aa6798-38b2-4381-9001-66446d0dd3e3" />
 
-## 🔮 Future Improvements
-- Add machine learning model
-- Add chatbot integration
-- Improve prediction accuracy
-- Add user login system
+## ⚙️ How It Works
+1. User selects symptoms  
+2. Symptoms are compared with stored dataset  
+3. Matching score is calculated  
+4. Disease with highest match is predicted  
+5. Advice is displayed  
 
-## 👩‍💻 Author
-Madhumitha V
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/YOUR_USERNAME/symptom-checker.git
+cd symptom-checker
+pip install -r requirements.txt
+python app.py
