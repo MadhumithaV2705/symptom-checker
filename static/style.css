@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     text-align: center;
-    background: #f0f8ff;
+    background-color: #f0f8ff;
 }
 
 h1 {
@@ -10,7 +10,12 @@ h1 {
 
 button {
     padding: 10px 20px;
-    background: #3498db;
+    background-color: #3498db;
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
 }

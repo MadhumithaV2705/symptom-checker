@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request
 import json
+import os
 
 app = Flask(__name__)
 
+# Load symptom data
 with open("symptoms.json") as f:
     data = json.load(f)
 
@@ -29,13 +31,17 @@ def index():
         if result == "Cold":
             advice = "Take rest and drink fluids"
         elif result == "Flu":
-            advice = "Consult doctor if severe"
+            advice = "Consult a doctor if symptoms are severe"
         elif result == "Covid-19":
-            advice = "Isolate and consult doctor"
+            advice = "Isolate and consult a doctor immediately"
         elif result == "Allergy":
-            advice = "Avoid allergens and take medication"
+            advice = "Avoid allergens and take proper medication"
+        else:
+            advice = "No clear match. Please consult a doctor."
 
     return render_template("index.html", result=result, advice=advice)
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
