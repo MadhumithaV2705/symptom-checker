@@ -41,3 +41,33 @@ git clone https://github.com/YOUR_USERNAME/symptom-checker.git
 cd symptom-checker
 pip install -r requirements.txt
 python app.py
+```
+
+## 🌍 Live Demo
+🔗 https://your-app-name.onrender.com
+
+👉 Try it live:
+- Select symptoms
+- Click "Check Symptoms"
+- View predicted disease and advice
+
+💡 Accessible from any device (mobile / desktop)
+
+## 🎯 Use Cases
+📱 Personal Health Awareness  
+Helps users identify possible illnesses based on symptoms.
+
+🏥 Basic Pre-Diagnosis Tool  
+Provides early guidance before consulting a doctor.
+
+📚 Educational AI Project  
+Useful for learning basic AI and healthcare applications.
+
+💬 Healthcare Assistance Systems  
+Can be integrated into healthcare apps for quick support.
+
+🤖 Beginner AI Application  
+Demonstrates simple AI logic using real-world problems.
+
+🌐 Web-Based Health Tool  
+Accessible anytime from any network via deployed link.
