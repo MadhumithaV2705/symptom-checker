@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>AI Symptom Checker</h1>
+
+<form method="POST">
+    <label><input type="checkbox" name="symptoms" value="fever"> Fever</label><br>
+    <label><input type="checkbox" name="symptoms" value="cough"> Cough</label><br>
+    <label><input type="checkbox" name="symptoms" value="headache"> Headache</label><br>
+    <label><input type="checkbox" name="symptoms" value="sneezing"> Sneezing</label><br>
+    <label><input type="checkbox" name="symptoms" value="runny nose"> Runny Nose</label><br>
+    <label><input type="checkbox" name="symptoms" value="loss of smell"> Loss of Smell</label><br>
+
+    <br>
+    <button type="submit">Check</button>
+</form>
+
+<h2>Result: {{ result }}</h2>
+
+<h3>{{ advice }}</h3>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "Cold": ["cough", "fever", "sore throat"],
+  "Flu": ["fever", "headache", "body pain"],
+  "Allergy": ["sneezing", "itching", "runny nose"],
+  "Covid-19": ["fever", "cough", "loss of smell"]
+}
