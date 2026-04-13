@@ -46,7 +46,7 @@ python app.py
 ```
 
 ## 🌍 Live Demo
-🔗 https://your-app-name.onrender.com
+🔗 [https://your-app-name.onrender.com](https://symptom-checker-1-nauh.onrender.com/)
 
 👉 Try it live:
 - Select symptoms
