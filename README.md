@@ -3,18 +3,20 @@
 An intelligent web-based healthcare assistant that predicts possible diseases based on user-selected symptoms and provides basic medical advice. This project demonstrates how simple AI logic can support early health awareness.
 
 ## 🚀 Features
-🔍 Symptom-based disease prediction  
-🧠 Simple AI logic using similarity matching  
-💡 Provides basic health advice  
-🌐 Clean and interactive web interface  
-📱 User-friendly design  
+
+- 🔍 Symptom-based disease prediction  
+- 🧠 Simple AI logic using similarity matching  
+- 💡 Provides basic health advice  
+- 🌐 Clean and interactive web interface  
+- 📱 User-friendly design  
 
 ## 🛠️ Tech Stack
-Backend: Flask (Python)  
-Frontend: HTML, CSS  
-Logic: Python (set matching algorithm)  
-Deployment: Render  
-Tools: VS Code, GitHub  
+
+- Backend: Flask (Python)  
+- Frontend: HTML, CSS  
+- Logic: Python (Set Matching Algorithm)  
+- Deployment: Render  
+- Tools: VS Code, GitHub  
 
 ## 📸 Working Demo
 
@@ -54,20 +56,10 @@ python app.py
 💡 Accessible from any device (mobile / desktop)
 
 ## 🎯 Use Cases
-📱 Personal Health Awareness  
-Helps users identify possible illnesses based on symptoms.
 
-🏥 Basic Pre-Diagnosis Tool  
-Provides early guidance before consulting a doctor.
-
-📚 Educational AI Project  
-Useful for learning basic AI and healthcare applications.
-
-💬 Healthcare Assistance Systems  
-Can be integrated into healthcare apps for quick support.
-
-🤖 Beginner AI Application  
-Demonstrates simple AI logic using real-world problems.
-
-🌐 Web-Based Health Tool  
-Accessible anytime from any network via deployed link.
+- 📱 Personal Health Awareness: Helps users identify possible illnesses based on selected symptoms.  
+- 🏥 Basic Pre-Diagnosis Tool: Provides initial guidance before consulting a doctor.  
+- 📚 Educational AI Project: Demonstrates simple AI logic for learning purposes.  
+- 💬 Healthcare Assistance Systems: Can be integrated into healthcare apps for quick support.  
+- 🤖 Beginner AI Application: Showcases real-world use of AI in healthcare for beginners.  
+- 🌐 Web-Based Health Tool: Accessible anytime from any device via deployed link.  
